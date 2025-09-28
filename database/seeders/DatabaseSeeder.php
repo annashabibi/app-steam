@@ -25,5 +25,10 @@ class DatabaseSeeder extends Seeder
             'username' => 'Kasir',
             'password' => Hash::make('kasir2705'),
         ]);
+
+        User::factory()->create([
+            'username' => 'Alyanraa',
+            'password' => Hash::make('alyanraa12'),
+        ]);
     }
 }
